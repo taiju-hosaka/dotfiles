@@ -1,0 +1,373 @@
+{
+    "local": "ja",
+    /******************** editor に関する設定 ********************/
+    // 角括弧 [] の左を入力したら右を補完
+    "editor.autoClosingBrackets": "always",
+    // 括弧を補完した場合に上書きしない
+    "editor.autoClosingOvertype": "auto",
+    // 引用符 "" の左を入力したら右を補完
+    "editor.autoClosingQuotes": "always",
+    // 自動的にインテント
+    "editor.autoIndent": "full",
+    // CSS/JSON カラープレビュー設定 OFF
+    "editor.colorDecorators": false,
+    // file を開く場合、tab size と insert spaces を自動で検知
+    "editor.detectIndentation": false,
+    // ドラッグ&ドロップ により選択範囲を移動
+    "editor.dragAndDrop": true,
+    // 選択範囲をしていない場合に現在の行をコピー
+    "editor.emptySelectionClipboard": true,
+    // code の折り畳みを許可
+    "editor.folding": true,
+    // code で折り畳まれた部分を強調表示
+    "editor.foldingHighlight": true,
+    // グリフ余白を表示
+    "editor.glyphMargin": true,
+    // ホバーの表示
+    "editor.hover.enabled": true,
+    // tab キーで space を挿入しない
+    "editor.insertSpaces": false,
+    // 行の高さ
+    "editor.lineHeight": 0,
+    // 行番号を表示
+    "editor.lineNumbers": "on",
+    // リンクを検出
+    "editor.links": true,
+    // 対応する括弧を強調表示
+    "editor.matchBrackets": "always",
+    // Command で multi cursor 化
+    "editor.multiCursorModifier": "ctrlCmd",
+    // 最終行と editor の下端との余白
+    "editor.padding.bottom": 0,
+    // 開始行と editor の上端との余白
+    "editor.padding.top": 0,
+    // 制御文字を表示
+    "editor.renderControlCharacters": true,
+    // 現在の行をハイライト
+    "editor.renderLineHighlight": "all",
+    // editor で空白文字を表示
+    "editor.renderWhitespace": "all",
+    // 選択範囲の角を丸くする
+    "editor.roundedSelection": true,
+    // editor に垂直の ruler を追加
+    "editor.rulers": [],
+    // 余白を超えてスクロールしない
+    "editor.scrollBeyondLastLine": false,
+    // 選択範囲と類似した表現をハイライト
+    "editor.selectionHighlight": true,
+    // tab 補完を有効にする
+    "editor.tabCompletion": "on",
+    // tab に相当するスペースの数
+    "editor.tabSize": 4,
+    // 末尾の空白を削除
+    "editor.trimAutoWhitespace": true,
+    // ビューの幅で行を折り返す
+    "editor.wordWrap": "on",
+    // 折り返した際にインデントを継承
+    "editor.wrappingIndent": "same",
+    /******************** cursor に関する設定 ********************/
+    // cursor 点滅形式 : 通常
+    "editor.cursorBlinking": "blink",
+    // cursor の動きを滑らかにしない
+    "editor.cursorSmoothCaretAnimation": false,
+    // cursor の表示形式 : 線
+    "editor.cursorStyle": "line",
+    // cursor の幅
+    "editor.cursorWidth": 0,
+    /******************** 検索 に関する設定 ********************/
+    // 常にファイル全体から検索
+    "editor.find.autoFindInSelection": "never",
+    // 選択範囲を検索対象とする
+    "editor.find.seedSearchStringFromSelection": true,
+    /******************** フォント に関する設定 ********************/
+    // フォントの指定
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    // フォントのサイズ
+    "editor.fontSize": 14,
+    // フォントの太さ
+    "editor.fontWeight": "normal",
+    /******************** 書式設定 ********************/
+    // paste した内容を自動的に format しない
+    "editor.formatOnPaste": false,
+    // save した内容を自動的に format する
+    "editor.formatOnSave": true,
+    // 入力した内容を自動的に format しない
+    "editor.formatOnType": false,
+    /******************** minimap に関する設定 ********************/
+    // minimap の表示
+    "editor.minimap.enabled": true,
+    // minimap の幅
+    "editor.minimap.maxColumn": 100,
+    // minimap にブロックを表示
+    "editor.minimap.renderCharacters": false,
+    // minimap のコンテンツのスケール
+    "editor.minimap.scale": 1,
+    // minimap のスライダー自動表示
+    "editor.minimap.showSlider": "always",
+    // minimap の表示位置
+    "editor.minimap.side": "right",
+    // minimap のサイズ
+    "editor.minimap.size": "proportional",
+    /******************** 差分エディタ に関する設定 ********************/
+    // 差分エディタを利用
+    "diffEditor.codeLens": true,
+    // 差分エディタで +/- インジケータを表示
+    "diffEditor.renderIndicators": true,
+    // 差分を横に並べて表示するのではなく行内に表示
+    "diffEditor.renderSideBySide": false,
+    /******************** 入力候補 に関する設定 ********************/
+    // 入力候補を自動で受け入れない
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    // 入力候補を Enter で受け入れない (tab で受け入れ)
+    "editor.acceptSuggestionOnEnter": "off",
+    // 入力中に入力候補を表示する
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    // 入力候補が表示されるまでの時間
+    "editor.quickSuggestionsDelay": 10,
+    // 他の候補の下に snippet 候補を表示
+    "editor.snippetSuggestions": "bottom",
+    // 入力候補を受け入れた場合に補完文字列を挿入
+    "editor.suggest.insertMode": "insert",
+    // 表示する入力候補の数
+    "editor.suggest.maxVisibleSuggestions": 6,
+    // アクティブスニペット がクイック候補を防止
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    // 入力候補ウィジェットの下にステータスバーを表示しない
+    "editor.suggest.statusBar.visible": false,
+    // 入力候補のフォントのサイズ
+    "editor.suggestFontSize": 14,
+    // 入力候補ウィジェットの行の高さ
+    "editor.suggestLineHeight": 20,
+    // トリガー文字の入力時に入力候補を自動的に表示
+    "editor.suggestOnTriggerCharacters": true,
+    // 直近の入力済候補をを自動入力
+    "editor.suggestSelection": "recentlyUsed",
+    // ドキュメント内の単語に基づいて入力候補を計算
+    "editor.wordBasedSuggestions": true,
+    /******************** ファイル に関する設定 ********************/
+    // 拡張子とファイルの関連付け
+    "files.associations": {},
+    // ファイルを開くときに文字セットのエンコードを推測
+    "files.autoGuessEncoding": true,
+    // ファイルを自動保存しない
+    "files.autoSave": "off",
+    // 削除したファイルを os のゴミ箱に移動
+    "files.enableTrash": true,
+    // デフォルトの文字セットエンコーディング
+    "files.encoding": "utf8",
+    // explorer で取り扱わないファイル拡張子
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.map": true,
+        "**/node_modules": true,
+        "**/.DS_Store": true
+    },
+    // Hot Exit [エディタを終了する際に保存されていないファイルを保持] を有効にする
+    "files.hotExit": "onExit",
+    // ファイルの保存時に空白行を末尾に挿入
+    "files.insertFinalNewline": true,
+    // ファイルの編集履歴を保持
+    "files.restoreUndoStack": true,
+    // ファイルの保存時に最終行以降をトリミング
+    "files.trimFinalNewlines": true,
+    // ファイルの保存時に末尾の空白をトリミング
+    "files.trimTrailingWhitespace": true,
+    /******************** workbench の基本設定 ********************/
+    // 保存する コマンド履歴 の数
+    "workbench.commandPalette.history": 100,
+    // コマンドパレット の入力を保持
+    "workbench.commandPalette.preserveInput": true,
+    // ワークベンチ における キーボードナビゲーション での表示形式 : ハイライト
+    "workbench.list.keyboardNavigation": "highlight",
+    // ワークベンチ において Command を押下することで複数選択
+    "workbench.list.multiSelectModifier": "ctrlCmd",
+    // ワークベンチ において single click でディレクトリを展開
+    "workbench.list.openMode": "singleClick",
+    // panel を ワークベンチ の下に表示
+    "workbench.panel.defaultLocation": "bottom",
+    // ビュー、エディタ 間にある ドラッグ領域 のサイズ
+    "workbench.sash.size": 4,
+    // 起動時にどの エディタ も起動しない
+    "workbench.startupEditor": "none",
+    // ワークベンチ の 配色テーマ
+    "workbench.colorTheme": "Material Theme High Contrast",
+    // subpixel 補間で ワークベンチ のフォントを平滑化
+    "workbench.fontAliasing": "default",
+    // workbench の icon 設定
+    "workbench.iconTheme": "vscode-icons",
+    // side bar の表示位置
+    "workbench.sideBar.location": "right",
+    // status bar の表示
+    "workbench.statusBar.visible": true,
+    // default で hint を非表示
+    "workbench.tips.enabled": false,
+    // tree のインデント
+    "workbench.tree.indent": 16,
+    /******************** breadcrumbs に関する設定 ********************/
+    // breadcrumbs を表示
+    "breadcrumbs.enabled": true,
+    // breadcrumbs に path を表示
+    "breadcrumbs.filePath": "on",
+    // breadcrumbs の path を icon でレンダリング
+    "breadcrumbs.icons": true,
+    // breadcrumbs の path を 構造順にソート
+    "breadcrumbs.symbolSortOrder": "position",
+    /******************** editor の管理に関する設定 ********************/
+    // 最後の tab を閉じた時に editor group を自動的に閉じる
+    "workbench.editor.closeEmptyGroups": true,
+    // 新しく利用した順で tab を閉じる
+    "workbench.editor.focusRecentEditorAfterClose": true,
+    // file に変更を加えた場合に 上部の境界線を表示
+    "workbench.editor.highlightModifiedTabs": true,
+    // woking directory からの相対 path を label として表示
+    "workbench.editor.labelFormat": "medium",
+    // 新しい file を末尾の位置で開く
+    "workbench.editor.openPositioning": "last",
+    // 閉じられた file を再度開く時、最後の表示位置を表示
+    "workbench.editor.restoreViewState": true,
+    // editor の label に icon を表示
+    "workbench.editor.showIcons": true,
+    // 開いている editor を tab で表示
+    "workbench.editor.showTabs": true,
+    // editor group を等分割
+    "workbench.editor.splitSizing": "distribute",
+    // editor tab の閉じるボタンの位置
+    "workbench.editor.tabCloseButton": "right",
+    // tab を縮小しない
+    "workbench.editor.tabSizing": "fit",
+    // title が定められていない editor の 名前をその内容から取得しない
+    "workbench.editor.untitled.labelFormat": "name",
+    /******************** window に関する設定 ********************/
+    // non-active な window を click した場合にその位置を trigger
+    "window.clickThroughInactive": true,
+    // 最後の editor を閉じた場合にも window を閉じない
+    "window.closeWhenEmpty": false,
+    // 再起動時に window 全て復元
+    "window.restoreWindows": "all",
+    // window の title
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    // window のズームレベル
+    "window.zoomLevel": 0,
+    // file を新しい window で開く
+    "window.openFilesInNewWindow": "on",
+    // folder を新しい window で開く
+    "window.openFoldersInNewWindow": "on",
+    /******************** explorer に関する設定 ********************/
+    // ごみ箱を経由して file を削除する場合、確認を行わない
+    "explorer.confirmDelete": false,
+    // ドラッグ or ドロップによる file 移動時に確認を行う
+    "explorer.confirmDragAndDrop": true,
+    // file にバッジを付与する
+    "explorer.decorations.badges": true,
+    // file をカラーリングする
+    "explorer.decorations.colors": true,
+    // ドラッグ or ドロップによる file 移動を許可する
+    "explorer.enableDragAndDrop": true,
+    // wubdiw に表示する editor の数
+    "explorer.openEditors.visible": 9,
+    // 拡張子で file を並び替え
+    "explorer.sortOrder": "type",
+    /******************** 検索 に関する設定 ********************/
+    // 検索結果を常に展開
+    "search.collapseResults": "alwaysExpand",
+    // 検索エディタで結果をダブルクリックした場合に結果を右側に展開
+    "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
+    // 全てのファイルを対象に検索
+    "search.searchOnType": true,
+    // 検索結果に行番号を表示しない
+    "search.showLineNumbers": false,
+    // 検索に .gitignore or .ignore file の設定を参照
+    "search.useIgnoreFiles": true,
+    /******************** Source Code Manegement に関する設定 ********************/
+    // SCM で inline action を常には表示しない
+    "scm.alwaysShowActions": false,
+    // activity bar で全ての file に対する count badge を計算
+    "scm.countBadge": "all",
+    // SCM の default で tree 状の view にする
+    "scm.defaultViewMode": "tree",
+    /******************** 拡張機能 に関する設定 ********************/
+    // 拡張機能の更新を自動的に確認する
+    "extensions.autoCheckUpdates": true,
+    // 拡張機能を自動的に更新する
+    "extensions.autoUpdate": true,
+    /******************** ターミナル に関する設定 ********************/
+    // VS code 内の統合ターミナルを使用
+    "terminal.explorerKind": "integrated",
+    // ターミナルで key bind を許可
+    "terminal.integrated.allowChords": true,
+    // ターミナルで選択したテキストをクリップボードにコピー
+    "terminal.integrated.copyOnSelection": true,
+    // ターミナルで cursor を点滅
+    "terminal.integrated.cursorBlinking": true,
+    // ターミナルの cursor のスタイル : 線
+    "terminal.integrated.cursorStyle": "line",
+    // ターミナルの cursor の幅
+    "terminal.integrated.cursorWidth": 1,
+    // 環境変数の設定
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.env.osx": {},
+    // ターミナルのフォントサイズ
+    "terminal.integrated.fontSize": 12,
+    // 新しいシェルが VS code から環境を継承
+    "terminal.integrated.inheritEnv": true,
+    // ターミナルの文字間隔
+    "terminal.integrated.letterSpacing": 0,
+    // ターミナルの行の高さ
+    "terminal.integrated.lineHeight": 1,
+    // ターミナル上で右クリックでコンテキストメニュー表示
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    // ターミナルが保持する最大行数
+    "terminal.integrated.scrollback": 2000,
+    // 参照する shell の path
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    /******************** 問題 に関する設定 ********************/
+    // ファイルを開く時、自動的に問題 view で参照
+    "problems.autoReveal": true,
+    // file と folder のエラーと警告を表示
+    "problems.decorations.enabled": true,
+    /******************** BracketPair に関する設定 ********************/
+    // 全ての括弧ペアを同じ色で表記
+    "bracketPairColorizer.colorMode": "Consecutive",
+    // scope している括弧をハイライト
+    "bracketPairColorizer.highlightActiveScope": true,
+    // bracket ruler の位置
+    "bracketPairColorizer.rulerPosition": "Center",
+    // gutter で括弧を表示
+    "bracketPairColorizer.showBracketsInGutter": true,
+    /******************** Git に関する設定 ********************/
+    // force push を無効にする
+    "git.allowForcePush": false,
+    // 追跡 file のみで badge をカウント
+    "git.countBadge": "tracked",
+    /******************** Python に関する設定 ********************/
+    // 開いている file に対してのみ問題を検出
+    "python.analysis.openFilesOnly": true,
+    // import 時の構文を補完
+    "path-autocomplete.extensionOnImport": true,
+    // 関数名を入力した際に括弧を補完
+    "python.autoComplete.addBrackets": true,
+    // autopep8 で formatting
+    "python.formatting.provider": "autopep8",
+    // flake8 の文字数による警告を無視
+    "python.linting.flake8Args": [
+        "\"--ignore=E501\""
+    ],
+    "python.pythonPath": "/usr/local/bin/python3",
+    /******************** docString に関する設定 ********************/
+    // docString の format
+    "autoDocstring.docstringFormat": "google",
+    "python.jediEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "search.exclude": {
+        "**/tmp": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.languageServer": "Jedi",
+}
